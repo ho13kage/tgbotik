@@ -5,7 +5,7 @@ from bs4 import BeatifulSoup
 from telegram import Bot, Update
 import time
 
-CHAT_ID = "@proverk1337"
+CHAT_ID = "@IEK_RASP_BOT"
 URL = "http://rasp.iek.irk.ru/ScheduleByGroup/32/IEK"
 
 TOKEN = os.getenv("TOKEN")  # Берём токен из переменной окружения
