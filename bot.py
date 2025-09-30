@@ -7,10 +7,7 @@ import time
 
 CHAT_ID = "@IEK_RASP_BOT"
 URL = "http://rasp.iek.irk.ru/ScheduleByGroup/32/IEK"
-
-TOKEN = os.getenv("TOKEN")  # Берём токен из переменной окружения
-if not TOKEN:
-    raise ValueError("Не найден токен! Задайте переменную окружения TOKEN.")
+TOKEN = "8368418335:AAFaBN0jSnWn2YLVYFXIoLRXVkOB4xSMFuE"
 bot = Bot(token=TOKEN)
 
 last_update = ""
